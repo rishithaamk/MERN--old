@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 const Login = () => {
     const [data,setData]=useState({
-        name:"Rishi",
+        name:"Rishiii",
         age:"20",
         cgpa:"9"
     });
@@ -18,7 +18,7 @@ const Login = () => {
         <form onSubmit={handleSubmit}>
             <label>Name:</label>
             <input type="text" value={data.name} name ="name" onChange={handleChange}placeholder='ENTER THE NAME'/>
-             <label>age:</label>
+             <label>Age:</label>
             <input type="text" value={data.age} name="age" onChange={handleChange}placeholder='ENTER THE age'/>
             <label>cgpa:</label>
             <input type="text" value={data.cgpa} name="cgpa" onChange={handleChange}placeholder='ENTER THE cgpa'/>
@@ -28,4 +28,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Logincommit -m
