@@ -8,9 +8,9 @@ const Signup = () => {
         const pass=
         document.getElementById("pass").value;
         if (name===""||email===""||pass===""){
-            alert("fill all fields");
+            alert("Enter fileds");
         }else{
-            alert("signup succesfully");
+            alert("Signup succesfully");
         }
 
     };
