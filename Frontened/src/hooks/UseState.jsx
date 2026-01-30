@@ -12,7 +12,7 @@ const UseState = () => {
             <label>Name:</label>
             <input type="text" value={name} onChange={(e)=>setName(e,target.value)}placeholder='ENTER THE NAME'/>
         
-            <button type='submit'>Submit</button>
+            <button type='submit'>Submit page</button>
         </form>
 
     </div>
