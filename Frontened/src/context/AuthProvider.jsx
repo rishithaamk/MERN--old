@@ -5,7 +5,7 @@ const AuthProvider = ({children}) => {
 
     const user={
         id:1,
-        name:"viky",
+        name:"vikyy",
         email:"viky@gmail.com"
     }
   return (
