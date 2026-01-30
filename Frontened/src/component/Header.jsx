@@ -1,9 +1,9 @@
-import React from 'react'
+import React,{useMemo} from 'react'
 
 const Header = () => {
     console.log("Header Rendered");
   return (
-    <div>Header</div>
+    <div>header</div>
   )
 }
 
