@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import Service from'./Service';
 
 const Contacts = () => {
   const[name,setName]=useState("Rishi");
