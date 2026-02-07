@@ -14,6 +14,7 @@ import UseRef from "./hooks/UseRef";
 import UseReducer from "./hooks/UseReducer";
 import UseMemo from "./hooks/UseMemo";
 import UseCallback from "./hooks/UseCallback";
+import Todo from "./component/Todo";
 const App = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/service" element={<Service />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/todo" element={<Todo/>}/>
 
         {/* Nested Routes */}
         <Route path="/hook" element={<Hook />}>
